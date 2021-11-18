@@ -1,10 +1,176 @@
+
+@media only screen and (min-width: 376px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .container {
+        margin: auto;
+        max-width: 925px;
+    }
+    
+    .header {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    
+    .title-text {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+        color: #000000;
+    }
+    
+    .about-us-div {
+        margin-right: 100px;
+    }
+    
+    .about-us-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .about-us-text {
+        margin-top: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        max-width: 333px;;
+    }
+    
+    .main-images-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 100px;
+    }
+    
+    .all-information-div{
+        margin-bottom: 65px;
+    }
+    
+    .all-information-div:nth-child(2),
+    .all-information-div:nth-child(3),
+    .all-information-div:nth-child(5),
+    .all-information-div:nth-child(6)
+    {
+        margin-left: 66px;
+    }
+    
+    
+    .all-information-div:nth-child(2),
+    .all-information-div:nth-child(5)
+    {
+        margin-top: 120px;
+    }
+    
+    
+    .img-and-job-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 264px;
+    }
+    
+    
+    .image-img-div{
+        width: 238px;
+        height: 341px;
+    }
+    
+    
+    .job-div{
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+    }
+    
+    .job-text{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+    
+    }
+    
+    .person-div {
+        margin-top: 15px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    
+    
+    .footer {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #A9A9A9 !important;
+        opacity: 50%;
+    }
+    
+    .footer:hover {
+        opacity: 100%;
+        opacity: 100%;
+    }
+    
+    
+    
+    }
+
+
+@media only screen and (max-width: 375px) {
+
 * {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 body {
-    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -12,20 +178,133 @@ a {
     color: #000;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
-max-width: 1000px;
-   background-color: cadetblue;
-   margin: auto;
+    margin: 0px 12px 0 18px;
+    max-width: 375px;
 }
 
-.title-div, .about-us-div {
-    display: inline-block;
-    width: 49.8%;
+.title-div {
+    margin-top: 71px;
 }
 
-.title-text{
+.title-text {
+   
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+.about-us-div {
+    margin-top: 40px;
+}
+
+.about-us-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-us-text {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    max-width: 333px;;
+}
+
+.main-images-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.all-information-div{
+    margin-bottom: 20px;
+}
+
+.all-information-div:nth-child(even){
+    margin-left: 26px;
+    margin-top: 50px;
+}
+
+
+.img-and-job-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 165px;
+}
+
+
+.image-img-div{
+    width: 135px;
+    height: 210px;
+}
+
+
+.job-div{
+    writing-mode: vertical-lr;
+    margin-left: 6px;
+}
+
+.job-text{
     
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+
 }
+
+.person-div {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9 !important;
+    opacity: 50%;
+}
+
+.footer:hover {
+    opacity: 100%;
+}
+
+
 
 }
 
